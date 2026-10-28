@@ -13,7 +13,7 @@ def main(page: ft.Page):
     alert = AlertManager(page)
 
     # --- LA LOGICA DELL'APPLICAZIONE E' PRESA DAL DEPOSITO DI STRUMENTI DEL LAB03 ---
-    deposito = DepositoStrumenti("Deposito Strumenti Musicali", "Alessandro Visconti")
+    deposito = DepositoStrumenti("Deposito Strumenti Musicali", "Iacopo La Gatta")
     try:
         deposito.carica_file_strumenti(FILE_STRUMENTI)  # Carica il file
     except FileNotFoundError as e:

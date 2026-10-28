@@ -1,5 +1,5 @@
 class Prestito:
-    """Rappresenta un prestito in corso di uno strumento"""
+    """Rappresenta il prestito in corso di uno strumento"""
 
     def __init__(self, codice, data, id_strumento, cognome_allievo):
         self.codice = codice

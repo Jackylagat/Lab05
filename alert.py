@@ -1,5 +1,6 @@
 import flet as ft
 
+
 class AlertManager:
     def __init__(self, page: ft.Page):
         self._page = page
